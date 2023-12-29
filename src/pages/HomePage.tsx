@@ -38,7 +38,7 @@ export function HomePage() {
   const [search] = searchParams;
   const s = useSearch(search);
 
-  console.log("This is my change here")
+  console.log("This is my change")
 
   return (
     <HomeLayout showBg={showBg}>
