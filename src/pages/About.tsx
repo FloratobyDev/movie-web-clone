@@ -18,6 +18,8 @@ function Question(props: { title: string; children: React.ReactNode }) {
 
 export function AboutPage() {
   const { t } = useTranslation();
+  console.log('added new changes');
+  
   return (
     <SubPageLayout>
       <PageTitle subpage k="global.pages.about" />
