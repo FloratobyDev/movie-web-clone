@@ -4,6 +4,7 @@ import { ArrowLink } from "@/components/text/ArrowLink";
 import { Title } from "@/components/text/Title";
 
 export default function DeveloperPage() {
+  console.log("Developer page change")
   return (
     <div className="py-48">
       <Navigation />
