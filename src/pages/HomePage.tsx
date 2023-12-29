@@ -38,6 +38,8 @@ export function HomePage() {
   const [search] = searchParams;
   const s = useSearch(search);
 
+  console.log("This is my change here")
+
   return (
     <HomeLayout showBg={showBg}>
       <div className="mb-16 sm:mb-24">
